@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		FCDC607129FED2B9003EB0E9 /* FolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC607029FED2B9003EB0E9 /* FolioApp.swift */; };
-		FCDC607329FED2B9003EB0E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC607229FED2B9003EB0E9 /* ContentView.swift */; };
 		FCDC607529FED2BB003EB0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDC607429FED2BB003EB0E9 /* Assets.xcassets */; };
 		FCDC607929FED2BB003EB0E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDC607829FED2BB003EB0E9 /* Preview Assets.xcassets */; };
 		FCDC608329FED2BC003EB0E9 /* FolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC608229FED2BC003EB0E9 /* FolioTests.swift */; };
 		FCDC608D29FED2BC003EB0E9 /* FolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC608C29FED2BC003EB0E9 /* FolioUITests.swift */; };
 		FCDC608F29FED2BC003EB0E9 /* FolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC608E29FED2BC003EB0E9 /* FolioUITestsLaunchTests.swift */; };
+		FCDC609C29FEDC71003EB0E9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC609B29FEDC71003EB0E9 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		FCDC606D29FED2B9003EB0E9 /* Folio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Folio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDC607029FED2B9003EB0E9 /* FolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioApp.swift; sourceTree = "<group>"; };
-		FCDC607229FED2B9003EB0E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCDC607429FED2BB003EB0E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCDC607629FED2BB003EB0E9 /* Folio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Folio.entitlements; sourceTree = "<group>"; };
 		FCDC607829FED2BB003EB0E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		FCDC608829FED2BC003EB0E9 /* FolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDC608C29FED2BC003EB0E9 /* FolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioUITests.swift; sourceTree = "<group>"; };
 		FCDC608E29FED2BC003EB0E9 /* FolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCDC609B29FEDC71003EB0E9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				FCDC607029FED2B9003EB0E9 /* FolioApp.swift */,
-				FCDC607229FED2B9003EB0E9 /* ContentView.swift */,
+				FCDC609B29FEDC71003EB0E9 /* LoginView.swift */,
 				FCDC607429FED2BB003EB0E9 /* Assets.xcassets */,
 				FCDC607629FED2BB003EB0E9 /* Folio.entitlements */,
 				FCDC607729FED2BB003EB0E9 /* Preview Content */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCDC607329FED2B9003EB0E9 /* ContentView.swift in Sources */,
+				FCDC609C29FEDC71003EB0E9 /* LoginView.swift in Sources */,
 				FCDC607129FED2B9003EB0E9 /* FolioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
